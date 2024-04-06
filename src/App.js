@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import './TodoListItem';
 import TodoListItem from './TodoListItem';
 // import { unstable_renderSubtreeIntoContainer } from 'react-dom';
 
@@ -86,7 +87,6 @@ const checkedChange = (id) =>
     })
     setTodo([...todo])
 }
-
 
 const editTodo = (id) =>
 {
